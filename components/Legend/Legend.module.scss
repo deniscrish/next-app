@@ -1,0 +1,33 @@
+$marginLegend: 1px 5px;
+
+.card {
+  cursor: default;
+  z-index: 400;
+  background-color: white;
+  position: absolute;
+  margin: 0 7px 20px 0;
+  padding: 5px 0;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.blockInCard {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.colorLegend {
+  width: 15px;
+  height: 15px;
+  margin: $marginLegend;
+}
+
+.nameLegend {
+  margin: $marginLegend;
+}
+
+.titleLegend {
+  margin: $marginLegend;
+  font-weight: bold;
+}

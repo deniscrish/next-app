@@ -1,0 +1,45 @@
+$heigth: 7vh;
+$color: rgb(183, 183, 183);
+
+.container {
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: $heigth auto 0;
+}
+
+.containerMap {
+  max-width: 100%;
+  margin: $heigth auto 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  height: $heigth;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: $color;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.link {
+  margin: 5px 20px;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: rgb(174, 255, 167);
+    text-decoration: none;
+  }
+}
+
+.map {
+  height: 100vh - $heigth;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
